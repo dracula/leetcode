@@ -1,0 +1,11 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "> A dark theme for [Leetcode](https://leetcode.org).",
+  "main": "Readme.md",
+  "author": "Shinbatsu",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}

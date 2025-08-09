@@ -1,19 +1,6 @@
-### [Foobar](https://foobar.com)
+## [Leetcode](https://leetcode.com)
 
-#### Install using Git
+### Install via Stylus
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
-
-```bash
-git clone https://github.com/dracula/foobar.git
-```
-
-#### Install manually
-
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
-
-#### Activating theme
-
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+1. If you haven’t already installed Stylus, you can download it here: [Stylus](https://add0n.com/stylus.htm)
+2. Add the Dracula theme to the Stylus extension by copying the following CSS file: [Dracula-leetcode](https://raw.githubusercontent.com/dracula/leetcode/main/dracula_leetcode.user.css)
