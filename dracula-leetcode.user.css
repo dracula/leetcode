@@ -1,14 +1,3 @@
-/* ==UserStyle==
-@name           Dracula for Leetcode
-@namespace      dracula/leetcode
-@version        0.1.0
-@description    Dark mode for leetcode.com
-@license        MIT License
-@author         Shinbatsu
-@updateURL      https://github.com/dracula/leetcode/raw/main/dracula_leetcode.user.css
-@preprocessor   stylus
-==/UserStyle== */
-
 :root {
   --dracula-bg: #282a36;
   --dracula-current: #44475a;
@@ -59,7 +48,7 @@
   --text-sd-success: var(--red);
   --text-label-4: var(--red);
   --text-reverse: var(--bg-dark);
-  --fill-primary: unquote('color-mix(in srgb, var(--blue), var(--bg-dark) 75%)')
+  --fill-primary: color-mix(in srgb, var(--blue), var(--bg-dark) 75%);
   --fill-tertiary: var(--bg-2);
   --border-primary: var(--blue);
   --border-secondary: var(--bg-2);
@@ -336,9 +325,9 @@ tr:nth-of-type(2n) {
 }
 
 :is(
-  .dark
-    .dark\:bg-\[linear-gradient\(to_right\,rgba\(0\,0\,0\,0\)\,\#282828_70\%\)\]
-),
+    .dark
+      .dark\:bg-\[linear-gradient\(to_right\,rgba\(0\,0\,0\,0\)\,\#282828_70\%\)\]
+  ),
 .flexlayout__tabset-overflowed .flexlayout__tabset_tabbar_inner::after {
   background-image: linear-gradient(to right, #0000, var(--bg));
 }
@@ -478,7 +467,7 @@ strong {
   color: var(--text-dark) !important;
 }
 
-::highlight() {
+::selection {
   background-color: var(--text) !important;
 }
 
