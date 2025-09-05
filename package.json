@@ -1,10 +1,27 @@
 {
-  "name": "leetcode",
+  "name": "dracula-leetcode",
   "version": "1.0.0",
   "description": "A dark theme for [Leetcode](https://leetcode.org).",
-  "main": "Readme.md",
-  "author": "Shinbatsu",
+  "keywords": [
+    "dark-theme",
+    "dracula",
+    "leetcode"
+  ],
+  "homepage": "https://github.com/dracula/leetcode#readme",
+  "bugs": {
+    "url": "https://github.com/dracula/leetcode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dracula/leetcode.git"
+  },
   "license": "MIT",
+  "author": "Shinbatsu",
+  "type": "commonjs",
+  "main": "Readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "prettier": "3.2.5"
   }

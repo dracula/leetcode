@@ -59,7 +59,7 @@
   --text-sd-success: var(--red);
   --text-label-4: var(--red);
   --text-reverse: var(--bg-dark);
-  --fill-primary: color-mix(in srgb, var(--blue), var(--bg-dark) 75%);
+  --fill-primary: unquote('color-mix(in srgb, var(--blue), var(--bg-dark) 75%)')
   --fill-tertiary: var(--bg-2);
   --border-primary: var(--blue);
   --border-secondary: var(--bg-2);
