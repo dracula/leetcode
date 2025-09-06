@@ -62,8 +62,8 @@
 }
 
 ::selection {
-  color: var(--text);
-  background: var(--highlight-3);
+    color:  var(--highlight-3); 
+    background: var(--text);
 }
 
 :is(.dark body) {
@@ -1057,13 +1057,27 @@ div[style*="text-align: center;"] {
 .right-wrapper__3rVj,
 .row-active__1C_e,
 textarea {
-  background: var(--bg);
-  color: var(--text-dark);
+    background: var(--bg);
+    color: var(--text-dark);
 }
 .data-radix-menu-content,
 .bg-fill-quaternary {
-  background: var(--bg-2);
+    background: var(--bg-2);
 }
 .cursor-pointer div:hover {
-  background: inherit;
+    background: inherit;
+}
+:is(.dark .dark\:odd\:bg-sd-card:nth-child(odd)) {
+    background-color: var(--bg);
+}
+.notification-list-item {
+    background: var(--bg) !important;
+    color: var(--text) !important;
+}
+.font-medium:hover{
+    background: none !important;
+}
+[id^="nav-menu-"] *,
+[id^="nav-menu-"] *:hover {
+  background: none !important;
 }
