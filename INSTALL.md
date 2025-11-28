@@ -8,9 +8,7 @@
 
 You can install the Dracula theme via the following link:
 
-<p align="center">
-	<a href="https://userstyles.world/api/style/24058.user.css"><img src="https://img.shields.io/badge/Leetcode:Dracula-install-F87359?colorA=363a4f&style=for-the-badge"></a>
-</p>
+<a href="https://userstyles.world/api/style/24058.user.css"><img src="https://img.shields.io/badge/Leetcode:Dracula-install-F87359?colorA=363a4f&style=for-the-badge"></a>
 
 #### Manual
 
